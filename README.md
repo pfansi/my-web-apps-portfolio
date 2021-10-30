@@ -16,7 +16,9 @@ I will create a git repository folder that will host the finish website. The Rep
 
 * The header will contain my name and the navigation bar
 
-* The main will be divided in row : About me section , Works section
+* The main content will be divided in row : About me section , Work section (divided in two rows) and the contact section.
+
+* Downloaded an image from pixabay that will be used as header image
 
 ## Screenshots
 
