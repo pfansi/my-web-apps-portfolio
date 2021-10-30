@@ -20,6 +20,10 @@ I will create a git repository folder that will host the finish website. The Rep
 
 * Downloaded an image from pixabay that will be used as header image
 
+* styled the header of the page using flex box property
+
+* used flex boxes to style the main content
+
 ## Screenshots
 
 - few styling issue was encounted during the refactoring but we managed to fix them ![main site](./assets/images/main-site.jpg)
