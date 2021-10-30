@@ -10,23 +10,25 @@ I will create a git repository folder that will host the finish website. The Rep
 
 ## What have you done
 
-- Done a mockup on paper of how the website will look like.
+- Done a mockup or wireframe of the website on paper to see how all the elements will be grouped together to ease the delopment stage.
 
-* On paper i have sectionned the website to contain these mains section: a header, a main an a footer.
+* sectionned the website to contain these sections: a header, a main and a footer.
 
-* The header will contain my name and the navigation bar
+* The header will contain my name logo and the navigation bar
 
-* The main content will be divided in row : About me section , Work section (divided in two rows) and the contact section.
+* The main content will be divided in row : About me section , Work section (with link to the my multiple portfolio) and the contact me section.
 
-* Downloaded an image from pixabay that will be used as header image
+* Downloaded few license free images on pixabay which will be used on the website.
 
-* styled the header of the page using flex box property
+* Coded the entire website using css flex boxes to try and achieve what i drew on the paper (check) link below).
 
-* used flex boxes to style the main content
+* Structure the website using sematics HTML.
 
 ## Screenshots
 
-- few styling issue was encounted during the refactoring but we managed to fix them ![main site](./assets/images/main-site.jpg)
+- using css flex boxes technique , i managed to code and visually achived the look of my finiched website. ![screenshot](.\assets\images\wireframe_look.JPG)
+
+* few styling issue was encounted during the refactoring but we managed to fix them ![main site](./assets/images/main-site.jpg)
 
 ## Link to the deploy application
 
