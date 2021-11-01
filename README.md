@@ -28,13 +28,17 @@ I will create a git repository folder that will host the finish website. The Rep
 
 * Add comments on the index page to describe my design .
 
+* add anchors links for the navigation to link to targeted section of the website.
+
+* adding the first profile picture link to the main picture has been causing issues to my styling . It is something to look into.
+
 ## Screenshots
 
 - using css flex boxes technique , i managed to code and visually achived the look of my finiched website. ![screenshot](.\assets\images\wireframe_look.JPG)
 
-* screenshot on how it looks on smaller devices. ![screenshot](./assets/images/smaller_devices_screen_view.jpg)
+* screenshot on how it looks on smaller devices. ![screenshot](.\assets\images\smaller_devices_screen_view.jpg)
 
-* few styling issue was encounted during the refactoring but we managed to fix them ![main site](./assets/images/main-site.jpg)
+* few styling issue was encounted when trying to link the pictures to the the external deployed portfolio. ![screenshot](.\assets\images\finished_website.jpg)
 
 ## Link to the deploy application
 

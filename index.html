@@ -43,7 +43,8 @@
       <!--About Us section - divided this section in two div-->
       <section class="section-about">
         <div class="box1-about">
-          <h2>
+          <!--this id will create an anchor link that will link to the correspondent navigation buitton-->
+          <h2 id="about-me">
             About <br />
             Us
           </h2>
@@ -55,9 +56,8 @@
           />
           <p>
             I am a full Stack web Developer located in Manchester, United
-            Kingdom . I am passionate about digital technology .I can't wait to
-            jump on the next interesting project . I am passionate about MMA and
-            football.
+            Kingdom . I am passionate about digital technology. I can't wait to
+            jump on the next interesting project. I also love MMA and football.
           </p>
         </div>
       </section>
@@ -65,13 +65,13 @@
       <!--Work section - divided this section in 2 div column and 3 rows in the second div column-->
       <section class="section-work">
         <div class="box1-work">
-          <h2>Work</h2>
+          <h2 id="work">Work</h2>
         </div>
 
         <div class="box2-work">
           <div class="container-0">
             <div class="image-main">
-              <h3>Portfolio-1</h3>
+              <h3>Code Refactor</h3>
               <img
                 src="./assets/images/code_refactor.jpg"
                 alt="Code refactor project"
@@ -81,21 +81,24 @@
 
           <div class="container-1">
             <div class="image-small-1">
-              <h3>Portfolio-2</h3>
-              <img src="./assets/images/portfolio_img.JPG" alt="portfolio-2" />
+              <h3>Portfolio Website</h3>
+              <img
+                src="./assets/images/portfolio_img.JPG"
+                alt="portfolio Website"
+              />
             </div>
-            <div class="image-small-2">
+            <div class="image-small-1">
               <h3>Portfolio-3</h3>
               <img src="./assets/images/portfolio_img.JPG" alt="portfolio-3" />
             </div>
           </div>
 
           <div class="container-2">
-            <div class="image-small-3">
+            <div class="image-small-1">
               <h3>Portfolio-4</h3>
               <img src="./assets/images/portfolio_img.JPG" alt="portfolio-4" />
             </div>
-            <div class="image-small-4">
+            <div class="image-small-1">
               <h3>Portfolio-5</h3>
               <img src="./assets/images/portfolio_img.JPG" alt="portfolio-5" />
             </div>
@@ -106,16 +109,28 @@
       <!--Contact Us section - divided this section in 2 div columns and insert contsct information list in the second div-->
       <section class="section-contact">
         <div class="box1-contact">
-          <h2>Contact <br />Me</h2>
+          <h2 id="contact-me">Contact <br />Me</h2>
         </div>
         <div class="box2-contact">
           <ul>
             <!--Anchor tags using href to link to external website-->
-            <!--id attributes to provide unique identifier for element-->
-            <li><a href="#">TEL: 07830258662</a></li>
-            <li><a href="#">Email: pfansi@gmail.com</a></li>
-            <li><a href="#">GitHub Page</a></li>
-            <li><a href="#">Linkedin</a></li>
+
+            <li><a href="tel:+447830258662">Phone</a></li>
+            <li><a href="pfansi76@gmail.com">Email</a></li>
+
+            <!-- add a title attibute to give extra informations -->
+            <li>
+              <a
+                href="https://github.com/pfansi/my-web-apps-portfolio"
+                title="Visit my repository Github to see my other projects"
+                >Github page</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/paulin-fansi-2956a7ba/"
+                >Linkedin</a
+              >
+            </li>
           </ul>
         </div>
       </section>

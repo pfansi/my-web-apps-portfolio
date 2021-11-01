@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #d9dcd6;
+  background-color: #42474b;
 }
 
 /* adding style on the header content*/
@@ -17,7 +17,7 @@ body {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
+  background-color: #42474b;
   color: #ffffff;
 }
 
@@ -28,7 +28,7 @@ body {
 
 /* partially adding an additional colour on the logo*/
 .header h1 .logo {
-  color: #d9dcd6;
+  color: #8ebeda;
 }
 
 /* adding style to the nav bar and specifying different ranges of font*/
@@ -54,14 +54,20 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+a:hover {
+  color: #6f6d70;
+}
 
 p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 h2 {
-  font-size: 3em;
+  font-size: 3rem;
 }
-/* this position the header image nicely centre.*/
+h3 {
+  font-size: 2rem;
+}
+/* this positions the header image nicely center.*/
 .header-img {
   display: flex;
   height: 400px;
@@ -73,10 +79,11 @@ h2 {
   position: relative;
 }
 
+/* this styles and positions the text on top of the image header */
 .header-img p {
   font-size: 32px;
   color: rgb(243, 243, 235);
-  background-color: rgb(160, 118, 118);
+  background-color: #8ebeda;
   position: absolute;
   width: 40%;
   height: 150px;
@@ -85,36 +92,38 @@ h2 {
   padding: 20px;
   opacity: 0.8;
 }
-/* this styles the left section of the site to a larger portion of the page*/
+
+/* this styles the main content of the page - it is styled with flex boxes divided in 3 sections */
 .content {
   display: flex;
   width: 100%;
   margin-top: 10px;
   flex-direction: column;
-  background-color: lawngreen;
+  background-color: #6f6d70;
+  color: #ffffff;
 }
+
+/* This styles the first section - two boxes created using flex*/
 .section-about {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
 }
 
+/* this style the first box of the about section */
 .box1-about {
-  background-color: hotpink;
   width: 20%;
   padding: 20px;
-  border-right: 5px solid black;
+  border-right: 10px solid #8ebeda;
   height: 200px;
   text-align: right;
 }
+
+/*this style the second box of the about section . Flex is used inside to position the profile image and the text*/
 .box2-about {
   display: flex;
-  background-color: indigo;
   padding: 20px;
   width: 80%;
   line-height: 200%;
@@ -124,183 +133,127 @@ h2 {
   margin-right: 10px;
 }
 
+/* this styles the section that present the work usinf flex - two boxes created in row*/
 .section-work {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
   padding: 50px;
   height: auto;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #5bccf6;
-  color: #ffffff;
 }
+
+/* This styles the box on the left of the section work*/
 .box1-work {
-  background-color: chocolate;
   height: 100px;
   width: 20%;
   padding: 20px;
-  border-right: 5px solid black;
+  border-right: 10px solid #8ebeda;
   height: 900px;
   text-align: right;
 }
+
+/* this styles the right section of work and flex is used to insert pictures in boxes */
 .box2-work {
   display: flex;
   flex-direction: column;
-  background-color: crimson;
   padding: 20px;
   width: 80%;
   height: 900px;
 }
+
 .container-0 {
   display: flex;
   flex: 1;
-  background-color: aqua;
   height: 300px;
 }
+
+/* This style the the top main image box  */
 .image-main {
   display: flex;
-  background-color: rgb(131, 77, 136);
   height: auto;
   flex: 1;
   margin: 10px;
-  border-style: 2px solid white;
+  border: 10px solid #8ebeda;
   position: relative;
 }
 .image-main img {
   width: 100%;
 }
+
+/* This style and position the text on top of the image*/
 .image-main h3 {
   position: absolute;
   margin-left: 0;
-  margin-top: 150px;
-  background-color: rgb(61, 94, 65);
+  margin-top: 100px;
+  background-color: #8ebeda;
   width: 30%;
-  height: 50px;
+  height: 60px;
   text-align: center;
   padding: 10px;
 }
 
+/* this styles the two next images orizontally using flex */
 .container-1 {
   display: flex;
   flex: 1;
-  background-color: blue;
   flex-direction: row;
   justify-content: space-between;
 }
-.container-1 .image-small-1 {
+.image-small-1 {
   display: flex;
   height: auto;
   margin: 10px;
-  border-style: 2px solid white;
+  border: 10px solid #8ebeda;
   position: relative;
 }
 .image-small-1 img {
   width: 100%;
 }
+/* This styles and positions the header text on top of the image */
 .image-small-1 h3 {
   position: absolute;
   margin-left: 0;
-  margin-top: 60px;
-  background-color: rgb(61, 94, 65);
-  width: 30%;
+  margin-top: 90px;
+  background-color: #8ebeda;
+  width: 40%;
   height: 50px;
   text-align: center;
   padding: 10px;
 }
 
-.container-1 .image-small-2 {
-  display: flex;
-  height: auto;
-  margin: 10px;
-  border-style: 2px solid white;
-  position: relative;
-}
-.image-small-2 img {
-  width: 100%;
-}
-.image-small-2 h3 {
-  position: absolute;
-  margin-left: 0;
-  margin-top: 60px;
-  background-color: rgb(61, 94, 65);
-  width: 30%;
-  height: 50px;
-  text-align: center;
-  padding: 10px;
-}
-
+/* This styles the second row composed of two image boxes using flex*/
 .container-2 {
   display: flex;
   flex: 1;
-  background-color: blueviolet;
   flex-direction: row;
   justify-content: space-between;
 }
-.container-2 .image-small-3 {
-  display: flex;
-  height: auto;
-  margin: 10px;
-  border-style: 2px solid white;
-  position: relative;
-}
-.image-small-3 img {
-  width: 100%;
-}
-.image-small-3 h3 {
-  position: absolute;
-  margin-left: 0;
-  margin-top: 60px;
-  background-color: rgb(61, 94, 65);
-  width: 30%;
-  height: 50px;
-  text-align: center;
-  padding: 10px;
-}
 
-.container-2 .image-small-4 {
-  display: flex;
-  height: auto;
-  margin: 10px;
-  border-style: 2px solid white;
-  position: relative;
-}
-.image-small-4 img {
-  width: 100%;
-}
-.image-small-4 h3 {
-  position: absolute;
-  margin-left: 0;
-  margin-top: 60px;
-  background-color: rgb(61, 94, 65);
-  width: 30%;
-  height: 50px;
-  text-align: center;
-  padding: 10px;
-}
-
+/* This style the section contact of the page using flex boxes */
 .section-contact {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
 }
+
+/*this styles the first box on the left */
 .box1-contact {
-  background-color: rgb(182, 129, 92);
   width: 20%;
   padding: 20px;
-  border-right: 5px solid black;
+  border-right: 10px solid #8ebeda;
   height: auto;
   text-align: right;
 }
+
+/* This style the second flex box on the right */
 .box2-contact {
-  background-color: cornflowerblue;
   padding: 20px;
   width: 80%;
 }
+
+/* This style the unordered list element listed */
 .box2-contact ul {
   height: 100%;
   display: flex;
@@ -309,12 +262,14 @@ h2 {
 }
 .box2-contact ul li {
   font-size: 24px;
+  text-align: center;
   width: 100%;
-  background-color: darkgoldenrod;
+  height: 50px;
+  background-color: #8ebeda;
   list-style: none;
   margin: 10px;
   padding: 5px;
-  border-bottom: 3px solid black;
+  border-bottom: 10px solid #42474b;
 }
 .footer p {
   justify-content: center;
