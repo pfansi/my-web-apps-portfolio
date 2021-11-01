@@ -164,21 +164,25 @@ h3 {
 .container-0 {
   display: flex;
   flex: 1;
+}
+.container-0 a {
+  display: flex;
   height: 300px;
+  width: 100%;
 }
 
 /* This style the the top main image box  */
 .image-main {
-  display: flex;
-  height: auto;
-  flex: 1;
-  margin: 10px;
+  width: 100%;
+  margin: 0;
   border: 10px solid #8ebeda;
   position: relative;
+  background-image: url("../images/code_refactor.jpg");
 }
-.image-main img {
+
+/*.image-main img {
   width: 100%;
-}
+}*/
 
 /* This style and position the text on top of the image*/
 .image-main h3 {
