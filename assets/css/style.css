@@ -165,7 +165,7 @@ h3 {
   display: flex;
   flex: 1;
 }
-.container-0 a {
+.container-0 .link-main {
   display: flex;
   height: 300px;
   width: 100%;
