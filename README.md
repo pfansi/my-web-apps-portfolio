@@ -38,4 +38,8 @@ I will create a git repository folder that will host the finish website. The Rep
 
 ## Link to the deploy application
 
+https://pfansi.github.io/my-web-apps-portfolio/
+
 ## link to the git hub repository
+
+https://github.com/pfansi/my-web-apps-portfolio
