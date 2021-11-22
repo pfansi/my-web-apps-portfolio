@@ -37,11 +37,11 @@ I will create a git repository folder that will host the finish website. The Rep
 
 ## Screenshots
 
-- using css flex boxes technique , i managed to code and visually achived the look of my finiched website. ![screenshot](.\assets\images\wireframe_look.JPG)
+- using css flex boxes technique , i managed to code and visually achived the look of my finiched website. ![screenshot](./assets/images/wireframe_look.JPG)
 
-- screenshot on how it looks on smaller devices. ![screenshot](.\assets\images\smaller_devices_screen_view.jpg)
+- screenshot on how it looks on smaller devices. ![screenshot](./assets/images/smaller_devices_screen_view.jpg)
 
-- few styling issue was encounted when trying to link the pictures to the the external deployed portfolio. ![screenshot](.\assets\images\finished_website.jpg)
+- few styling issue was encounted when trying to link the pictures to the the external deployed portfolio. ![screenshot](./assets/images/finished_website.jpg)
 
 ## Link to the deploy application
 
