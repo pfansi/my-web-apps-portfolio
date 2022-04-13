@@ -14,7 +14,7 @@ I will create a git repository folder that will host the finish website. The Rep
 
 - sectionned the website to contain these sections: a header, a main and a footer.
 
-- The header will contain my name logo and the navigation bar
+- The header will contain my name logo and the navigation bar.
 
 - The main content will be divided in rows : About me section , Work section (with link to my multiple portfolio) and the contact me section.
 
