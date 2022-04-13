@@ -1,5 +1,13 @@
 # my-web-apps-portfolio
 
+## Link to the deploy application
+
+https://pfansi.github.io/my-web-apps-portfolio/
+
+## link to the git hub repository
+
+https://github.com/pfansi/my-web-apps-portfolio
+
 ## Task Description
 
 I will build a portfolio website that going to talk about me and showcase my numerious web application project .
@@ -42,11 +50,3 @@ I will create a git repository folder that will host the finish website. The Rep
 - screenshot on how it looks on smaller devices. ![screenshot](./assets/images/Smaller_devices_screen_view.JPG)
 
 - few styling issue was encounted when trying to link the pictures to the the external deployed portfolio. ![screenshot](./assets/images/finished_website.JPG)
-
-## Link to the deploy application
-
-https://pfansi.github.io/my-web-apps-portfolio/
-
-## link to the git hub repository
-
-https://github.com/pfansi/my-web-apps-portfolio
